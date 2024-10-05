@@ -1,10 +1,12 @@
-# Build your own Redis like server - Vanilla NodeJs
+# Redis Clone
 
-1. **Introduction and Project Overview**
-2. **Setting Up the Development Environment, Basic TCP Server, Redis basics, TDD initialization**
-3. **Handling Client Connections, SET, GET, DEL and EXPIRE**
-4. **Implementing TTL, Increment and Decrement**
-5. **Handling Lists (LPUSH, RPUSH, LPOP, RPOP, LRANGE)**
-6. **Adding Data Persistence with Snapshots (RDB)**
-7. **Implementing Append-Only File (AOF) for Durability**
-10. **Project Recap and Future Improvements**
+A custom, lightweight implementation of Redis, the popular in-memory key-value store. This project replicates essential Redis features, offering a fast and simple way to store and retrieve data in memory.
+
+## What is this?
+
+- **In-memory storage**: Quick data access with key-value pairs.
+- **Supported types**: Strings, lists, sets, and hash maps.
+- **Basic commands**: Implements a set of core Redis-like commands (e.g., `SET`, `GET`, `DEL`).
+- **Persistence**: Optional feature to save data to disk.
+- **Simple design**: Built for learning, experimenting, and contributing.
+
